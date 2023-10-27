@@ -1,0 +1,7 @@
+﻿  main.cpp
+main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall cv::Mat::Mat(void)" (??0Mat@cv@@QAE@XZ)，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Mat &&)" (??4Mat@cv@@QAEAAV01@$$QAV01@@Z)，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，函数 _main 中引用了该符号
+E:\projects\opencv\opencv\build\x64\vc16\lib\opencv_world480.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\projects\cpp\my_opencv\my_opencv\Debug\my_opencv.exe : fatal error LNK1120: 4 个无法解析的外部命令
